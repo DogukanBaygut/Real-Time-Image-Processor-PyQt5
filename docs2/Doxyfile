@@ -1,0 +1,64 @@
+# Project Information
+PROJECT_NAME           = "Advanced Image Processing Interface"
+PROJECT_BRIEF          = "PyQt5-based Advanced Image Processing Interface with modular OOP architecture."
+PROJECT_NUMBER         = "v1.0"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = . README.md
+FILE_PATTERNS          = *.py
+RECURSIVE              = YES
+DISABLE_INDEX 	       = YES
+
+# Extract & Parse Configuration
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_METHODS  = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
+MULTILINE_CPP_IS_BRIEF = YES
+CASE_SENSE_NAMES       = YES
+EXTENSION_MAPPING      = py=Python
+
+# Source Code Display
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+SHOW_USED_FILES        = YES
+
+# Diagram and Graph Support
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 2
+CLASS_DIAGRAMS         = YES
+UML_LOOK               = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_MULTI_TARGETS      = YES
+DOT_CLEANUP            = YES
+
+# HTML Output
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+SEARCHENGINE           = YES
+
+# LaTeX / PDF (optional)
+GENERATE_LATEX         = NO
+
+# Markdown and Aliases
+MARKDOWN_SUPPORT       = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+
+# Misc
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = NO
+INPUT_ENCODING         = UTF-8
